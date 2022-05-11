@@ -2,6 +2,9 @@ export function renderBook(book) {
     const div = document.createElement('div');
     div.classList.add('book');
 
+    const a = document.createElement('a');
+    a.href = `/books/?id=${book.id}`;
+
     const h1 = document.createElement('h1');
     h1.textContent = book.title;
 
@@ -11,6 +14,7 @@ export function renderBook(book) {
     const p = document.createElement('p');
     p.textContent = `${book.title} was written by ${book.author} and published in ${book.yearPublished}.`;
 
-    div.append(h1, img, p);
+    a.append(h1, img, p);
+    div.append(a);
     return div;
 }
