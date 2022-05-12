@@ -10,4 +10,9 @@ export async function getBooks() {
     return resp.data;
 }
 
-getBooks();
+export async function getBookById(idFromParams) {
+    const resp = await client.from('books').select('*').match({ id: idFromParams }).single();
+    console.log(resp);
+    return resp.data;
+}
+
