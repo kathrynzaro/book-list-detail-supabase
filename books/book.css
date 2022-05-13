@@ -29,6 +29,7 @@ body {
 
 img {
     max-width: 300px;
+    width: 90%;
     margin: 40px;
     box-shadow: 1px 1px 8px 10px #858383d8;
 }
