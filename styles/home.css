@@ -1,11 +1,12 @@
 /* add home page styles here */
 body {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/bookss.jpg');
+    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/bookss.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    background-color: antiquewhite;
 }
 
 .main-section {
@@ -15,36 +16,41 @@ body {
 }
 
 #books {
-    border-radius: 20px;
+    width: fit-content;
+    margin: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 25px;
-    justify-content: space-evenly;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(250, 235, 215, 0.329); */
+    background-color: black;
+    
 }
 
 .book {
-    width: 100%;
-    /* border-radius: 15px; */
-    margin: 20px;
-    /* color: white; */
-    max-width: 200px;
-    min-width: 150px;
+    padding: 15px;
+    max-width: 150px;
+    min-width: 100px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.334);
-    color: antiquewhite;
-    padding: 15px;
-    border-radius: 30px;
-    border: 5px solid antiquewhite;
+    /* background-color: rgba(0, 0, 0, 0.572); */
+    color: rgb(249, 240, 229);
+    background-color: black;
+    padding: 10px 30px;
+    width: 100%;
+    line-height: 65px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
 }
 
 img {
     width: 100%;
-    /* border-radius: 10px; */
+    box-shadow: 1px 1px 8px 3px #c2c1c1e4;
 }
 
 a:hover {

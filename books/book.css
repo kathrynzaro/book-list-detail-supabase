@@ -4,24 +4,60 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+}
+
+#book-detail-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .book-detail {
     width: 50%;
-    height: 50%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.487);
-    padding: 40px;
-    border-radius: 40px;
-    border: 5px solid antiquewhite;
+    background-color: rgba(0, 0, 0, 0.536);
     color: antiquewhite;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    padding: 50px;
 }
 
 img {
-    width: 200px;
+    max-width: 300px;
+    margin: 40px;
+    box-shadow: 1px 1px 8px 10px #858383d8;
+}
+
+a {
+    background-color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px;
+    color: black;
+    opacity: .5;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    max-width: 700px;
+    margin: 0;
+}
+
+p {
+    font-size: 1.4rem;
+    max-width: 700px;
+    letter-spacing: 3px;
+    margin: 0;
 }
