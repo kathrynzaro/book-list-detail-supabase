@@ -1,12 +1,12 @@
 /* add home page styles here */
 body {
-    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/bookss.jpg'); */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/book2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-family: 'Inconsolata', monospace;
-    background-color: antiquewhite;
+    background-color: black;
 }
 
 .main-section {
@@ -17,7 +17,8 @@ body {
 
 #books {
     width: fit-content;
-    margin: 120px;
+    margin: 150px 0px;
+    width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: rgba(250, 235, 215, 0.329); */
-    background-color: black;
+    background-color: white;
     
 }
 
@@ -36,11 +37,10 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     /* background-color: rgba(0, 0, 0, 0.572); */
-    color: rgb(249, 240, 229);
-    background-color: black;
+    background-color: white;
     padding: 10px 30px;
     width: 100%;
     line-height: 65px;
@@ -50,7 +50,7 @@ h1 {
 
 img {
     width: 100%;
-    box-shadow: 1px 1px 8px 3px #c2c1c1e4;
+    /* box-shadow: 0px 0px 8px 3px #ffffffe4; */
 }
 
 a:hover {
