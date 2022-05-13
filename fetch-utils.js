@@ -6,13 +6,11 @@ const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 export async function getBooks() {
     const resp = await client.from('books').select('*');
-    console.log(resp);
     return resp.data;
 }
 
 export async function getBookById(idFromParams) {
     const resp = await client.from('books').select('*').match({ id: idFromParams }).single();
-    console.log(resp);
     return resp.data;
 }
 

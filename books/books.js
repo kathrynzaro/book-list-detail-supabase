@@ -1,5 +1,5 @@
-import { getBookById } from "../fetch-utils.js";
-import { renderBookDetail } from "../render-utils.js";
+import { getBookById } from '../fetch-utils.js';
+import { renderBookDetail } from '../render-utils.js';
 
 
 const bookDetailContainer = document.getElementById('book-detail-container');
