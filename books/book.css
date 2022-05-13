@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/bookss.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+}
+
+#book-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.book-detail {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.536);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    padding: 50px;
+}
+
+img {
+    max-width: 300px;
+    width: 90%;
+    margin: 40px;
+    box-shadow: 1px 1px 8px 10px #858383d8;
+}
+
+a {
+    background-color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px;
+    color: black;
+    opacity: .5;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    max-width: 700px;
+    margin: 0;
+}
+
+p {
+    font-size: 1.4rem;
+    max-width: 700px;
+    letter-spacing: 3px;
+    margin: 0;
+}
